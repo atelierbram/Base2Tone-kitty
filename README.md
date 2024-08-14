@@ -1,13 +1,23 @@
 # Base2Tone for kitty
 
-## Usage
-Download or clone this repo and put it in the `~/.config/kitty/themes/` folder of [your favorite terminal emulator](https://sw.kovidgoyal.net/kitty/).
-Include the theme you want to try out in the kitty configuration file `~/.config/kitty/kitty.conf` like so:
+The dark themes of [Base2Tone](https://base2t.one) come included in kitty now.
+
+In kitty do:
+
+```bash
+kitty +kitten themes
+```
+
+Follow instructions from within kitty to pick your favorite theme.
+
+## Manual install
+Maybe if you want to try some of the light themes, download or clone this repo and put it in the `~/.config/kitty/themes/` folder of [your favorite terminal emulator](https://sw.kovidgoyal.net/kitty/).
+Include the theme you want to try in the kitty configuration file `~/.config/kitty/kitty.conf` like so:
 
 ```sh
 # BEGIN_KITTY_THEME
 # include current-theme.conf
-include themes/Base2Tone-kitty/themes/base2tone-evening-dark.conf
+include themes/Base2Tone-kitty/themes/base2tone-heath-light.conf
 ```
 
 ## Base2Tone
